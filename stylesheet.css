@@ -11,16 +11,15 @@ body {
 
 .tablecontent {
     display: grid;
-    grid-template-columns: 300px minmax(0, 900px);
-    gap: 16px;
-    align-items: center;
+    grid-template-columns: minmax(0, 800px) 300px;
+    align-items: start;
 }
 
 .subtitle {
     font-size: medium;
     color: #5f5f5f;
     margin-top: -15px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;    
 }
 
 main {
@@ -30,8 +29,13 @@ main {
     margin: 0;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
-    background-color: #e7e7e77d;
+    background-color: white;
+    border: 1px solid #d8d8d8    
     
+}
+
+main:hover {
+    background-color: #ebe8e854;
 }
 
 main p {
